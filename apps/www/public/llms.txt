@@ -1,0 +1,16 @@
+# Datthu UI
+
+> Beautifully designed landing page components built with React & Tailwind CSS.
+
+This file provides LLM-friendly entry points to documentation and examples.
+
+## Components
+
+
+## Examples
+
+
+## Optional
+
+- [Repository](https://github.com/Sridatthu/datthuui): Source code and issues
+- [Sitemap](https://datthuui.site/sitemap.xml): Indexable pages

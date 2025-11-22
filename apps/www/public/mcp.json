@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "@Sridatthu/mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@Sridatthu/mcp@latest"
+      ]
+    }
+  }
+}
