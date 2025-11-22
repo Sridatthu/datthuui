@@ -13,7 +13,7 @@ export const docsConfig: DocsConfig = {
     },
     {
       title: "Templates",
-      href: "https://pro.datthuui.site",
+      href: "https://pro.datthuui.vercel.app",
       event: "header_cta_clicked",
       label: "",
     },
