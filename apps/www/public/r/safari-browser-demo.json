@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "safari-browser-demo",
+  "type": "registry:example",
+  "title": "safari-browser-demo",
+  "description": "Example showing a safari-browser-demo component.",
+  "registryDependencies": [
+    "@datthuui/safari-browser"
+  ],
+  "files": [
+    {
+      "path": "registry/example/safari-browser-demo.tsx",
+      "content": "import { Safari } from \"@/registry/datthuui/safari-browser\"\r\n\r\nexport function SafariBrowserDemo() {\r\n  return (\r\n    <div className=\"relative\">\r\n      <Safari\r\n        url=\"eldoraui.site\"\r\n        src=\"https://res.cloudinary.com/eldoraui/image/upload/v1758570676/mac_llxzg3.jpg\"\r\n        className=\"size-full\"\r\n      />\r\n    </div>\r\n  )\r\n}",
+      "type": "registry:example"
+    }
+  ]
+}
