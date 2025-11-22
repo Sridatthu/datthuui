@@ -121,7 +121,7 @@ published: true
 <TabsContent value="cli">
 
 ```bash
-npx shadcn@latest add "https://datthuui.vercel.app/r/example-component.json"
+npx shadcn@latest add "https://ui.datthu.site/r/example-component.json"
 ```
 
 </TabsContent>
@@ -290,7 +290,7 @@ pnpm run build:cli
 pnpm run release:cli
 ```
 
-The CLI in development uses index.json from default `3000` port on localhost. Otherwise [https://datthuui.vercel.app](https://datthuui.vercel.app/registry/index.json)
+The CLI in development uses index.json from default `3000` port on localhost. Otherwise [https://ui.datthu.site](https://ui.datthu.site/registry/index.json)
 
 ## Ask for Help
 

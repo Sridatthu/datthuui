@@ -6,10 +6,10 @@ This file provides LLM-friendly entry points to documentation and examples.
 
 ## Components
 
-- [gradual-spacing-text](https://datthuui.vercel.app/docs/components/gradual-spacing-text): A gradual spacing text component.
-- [ipad](https://datthuui.vercel.app/docs/components/ipad): An iPad SVG component.
-- [macbook-pro](https://datthuui.vercel.app/docs/components/macbook-pro): A MacBook Pro SVG component.
-- [safari-browser](https://datthuui.vercel.app/docs/components/safari-browser): A safari browser component.
+- [gradual-spacing-text](https://ui.datthu.site/docs/components/gradual-spacing-text): A gradual spacing text component.
+- [ipad](https://ui.datthu.site/docs/components/ipad): An iPad SVG component.
+- [macbook-pro](https://ui.datthu.site/docs/components/macbook-pro): A MacBook Pro SVG component.
+- [safari-browser](https://ui.datthu.site/docs/components/safari-browser): A safari browser component.
 
 ## Examples
 
@@ -21,4 +21,4 @@ This file provides LLM-friendly entry points to documentation and examples.
 ## Optional
 
 - [Repository](https://github.com/Sridatthu/datthuui): Source code and issues
-- [Sitemap](https://datthuui.vercel.app/sitemap.xml): Indexable pages
+- [Sitemap](https://ui.datthu.site/sitemap.xml): Indexable pages

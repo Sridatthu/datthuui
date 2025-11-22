@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Datthu UI",
-  url: "https://datthuui.vercel.app",
-  ogImage: "https://datthuui.vercel.app/og",
+  url: "https://ui.datthu.site",
+  ogImage: "https://ui.datthu.site/og",
   description:
     "Beautifully designed landing page components built with React & Tailwind CSS.",
   links: {

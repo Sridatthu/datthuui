@@ -121,7 +121,7 @@ export const Index: Record<string, any> = {
     name: "gradual-spacing-text-demo",
     description: "Example showing a gradual-spacing-text-demo component.",
     type: "registry:example",
-    registryDependencies: ["@eldoraui/gradual-spacing-text"],
+    registryDependencies: ["@datthuui/gradual-spacing-text"],
     files: [{
       path: "registry/example/gradual-spacing-text-demo.tsx",
       type: "registry:example",

@@ -5,7 +5,7 @@
   "title": "gradual-spacing-text-demo",
   "description": "Example showing a gradual-spacing-text-demo component.",
   "registryDependencies": [
-    "@eldoraui/gradual-spacing-text"
+    "@datthuui/gradual-spacing-text"
   ],
   "files": [
     {
