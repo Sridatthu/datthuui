@@ -10,7 +10,7 @@
   "files": [
     {
       "path": "registry/example/ipad-demo.tsx",
-      "content": "import { Ipad } from \"@/registry/datthuui/ipad\"\n\nexport function iPadDemo() {\n  return (\n    <div className=\"relative\">\n      <Ipad\n        src=\"https://res.cloudinary.com/eldoraui/image/upload/v1758616622/ipad_xgn1qu.jpg\"\n        className=\"size-full\"\n      />\n    </div>\n  )\n}\n",
+      "content": "import { Ipad } from \"@/registry/datthuui/ipad\"\n\nexport function iPadDemo() {\n  return (\n    <div className=\"relative\">\n      <Ipad\n        src=\"https://images.unsplash.com/photo-1733249152111-cde0234c5fed?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aXBhZCUyMHdhbGxwYXBlciUyMGxhbmRzY2FwZXxlbnwwfHwwfHx8MA%3D%3D\"\n        className=\"size-full\"\n      />\n    </div>\n  )\n}\n",
       "type": "registry:example"
     }
   ]

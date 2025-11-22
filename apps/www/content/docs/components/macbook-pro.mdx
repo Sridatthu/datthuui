@@ -1,0 +1,66 @@
+---
+title: MacBook Pro
+date: 2025-11-22
+description: Interactive MacBook Pro mockup component with customizable screen content.
+author: Sri Datthu
+published: true
+---
+
+<ComponentPreview name="macbook-pro-demo" />
+
+## Installation
+
+<Tabs defaultValue="cli">
+
+<TabsList>
+  <TabsTrigger value="cli">CLI</TabsTrigger>
+  <TabsTrigger value="manual">Manual</TabsTrigger>
+</TabsList>
+<TabsContent value="cli">
+
+```bash
+npx shadcn@latest add "https://datthuui.vercel.app/r/macbook-pro.json"
+```
+
+</TabsContent>
+
+<TabsContent value="manual">
+
+<Steps>
+
+<Step>Copy and paste the following code into your project.</Step>
+
+`components/datthuui/macbook-pro.tsx`
+
+<ComponentSource name="macbook-pro" />
+
+<Step>Update the import paths to match your project setup.</Step>
+
+</Steps>
+
+</TabsContent>
+
+</Tabs>
+
+## Usage
+
+```tsx showLineNumbers
+import { MacbookPro } from "@/components/ui/macbook-pro"
+```
+
+```tsx showLineNumbers
+<MacbookPro
+  src="https://images.unsplash.com/photo-1502790671504-542ad42d5189?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG1hY2Jvb2slMjBwcm8lMjB3YWxscGFwZXJ8ZW58MHx8MHx8fDA%3D"
+  width={650}
+  height={400}
+/>
+```
+
+## Props
+
+| Prop        | Type     | Default | Description                                      |
+| ----------- | -------- | ------- | ------------------------------------------------ |
+| `src`       | `string` | `-`     | The source of the image to display on the screen |
+| `width`     | `number` | `650`   | The width of the MacBook Pro mockup              |
+| `height`    | `number` | `400`   | The height of the MacBook Pro mockup             |
+| `className` | `string` | `-`     | Additional CSS classes for styling               |

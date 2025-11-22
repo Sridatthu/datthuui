@@ -38,4 +38,16 @@ export const ui: Registry["items"] = [
       },
     ],
   },
+  {
+    name: "macbook-pro",
+    type: "registry:ui",
+    title: "macbook-pro",
+    description: "A MacBook Pro SVG component.",
+    files: [
+      {
+        path: "datthuui/macbook-pro.tsx",
+        type: "registry:ui",
+      },
+    ],
+  },
 ]

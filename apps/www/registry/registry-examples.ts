@@ -40,4 +40,17 @@ export const examples: Registry["items"] = [
       },
     ],
   },
+  {
+    name: "macbook-pro-demo",
+    type: "registry:example",
+    title: "macbook-pro-demo",
+    description: "Example showing a macbook-pro-demo component.",
+    registryDependencies: ["@datthuui/macbook-pro"],
+    files: [
+      {
+        path: "example/macbook-pro-demo.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
 ]

@@ -52,6 +52,12 @@ export const docsConfig: DocsConfig = {
           items: [],
           label: "New",
         },
+        {
+          title: "MacBook Pro",
+          href: "/docs/components/macbook-pro",
+          items: [],
+          label: "New",
+        },
       ],
     },
     {
