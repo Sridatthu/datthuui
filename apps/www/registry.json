@@ -43,6 +43,23 @@
       ]
     },
     {
+      "name": "gradual-spacing-text",
+      "type": "registry:ui",
+      "title": "gradual-spacing-text",
+      "description": "A gradual spacing text component.",
+      "dependencies": [
+        "motion",
+        "react",
+        "clsx"
+      ],
+      "files": [
+        {
+          "path": "registry/datthuui/gradual-spacing-text.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
       "name": "safari-browser-demo",
       "type": "registry:example",
       "title": "safari-browser-demo",
@@ -68,6 +85,21 @@
       "files": [
         {
           "path": "registry/example/ipad-demo.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "gradual-spacing-text-demo",
+      "type": "registry:example",
+      "title": "gradual-spacing-text-demo",
+      "description": "Example showing a gradual-spacing-text-demo component.",
+      "registryDependencies": [
+        "@eldoraui/gradual-spacing-text"
+      ],
+      "files": [
+        {
+          "path": "registry/example/gradual-spacing-text-demo.tsx",
           "type": "registry:example"
         }
       ]

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "gradual-spacing-text-demo",
+  "type": "registry:example",
+  "title": "gradual-spacing-text-demo",
+  "description": "Example showing a gradual-spacing-text-demo component.",
+  "registryDependencies": [
+    "@eldoraui/gradual-spacing-text"
+  ],
+  "files": [
+    {
+      "path": "registry/example/gradual-spacing-text-demo.tsx",
+      "content": "import { GradualSpacingText } from \"@/registry/datthuui/gradual-spacing-text\"\r\n\r\nexport function GradualSpacingTextDemo() {\r\n  return (\r\n    <GradualSpacingText\r\n      className=\"font-display text-center text-4xl font-bold -tracking-widest text-black md:text-7xl md:leading-[5rem] dark:text-white\"\r\n      text=\"Gradual Spacing\"\r\n    />\r\n  )\r\n}",
+      "type": "registry:example"
+    }
+  ]
+}

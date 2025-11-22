@@ -19,7 +19,7 @@ published: true
 <TabsContent value="cli">
 
 ```bash
-npx shadcn@latest add "https://datthuui.vercel.app/r/safari-browser"
+npx shadcn@latest add "https://datthuui.vercel.app/r/safari-browser.json"
 ```
 
 </TabsContent>
@@ -42,7 +42,6 @@ npx shadcn@latest add "https://datthuui.vercel.app/r/safari-browser"
 
 </Tabs>
 
-
 ## Usage
 
 ```tsx showLineNumbers
@@ -50,7 +49,7 @@ import { Safari } from "@/components/ui/safari-browser"
 ```
 
 ```tsx showLineNumbers
-<Safari 
+<Safari
   url="datthuui.vercel.app"
   src="https://res.cloudinary.com/eldoraui/image/upload/v1758570676/mac_llxzg3.jpg"
 />
@@ -58,9 +57,9 @@ import { Safari } from "@/components/ui/safari-browser"
 
 ## Props
 
-| Prop     | Type     | Default | Description                        |
-| -------- | -------- | ------- | ---------------------------------- |
+| Prop     | Type     | Default | Description                           |
+| -------- | -------- | ------- | ------------------------------------- |
 | `url`    | `string` | `-`     | The URL to display in the address bar |
-| `src`    | `string` | `-`     | The source of the image to display |
-| `width`  | `number` | `1203`  | The width of the Safari window     |
-| `height` | `number` | `753`   | The height of the Safari window    |
+| `src`    | `string` | `-`     | The source of the image to display    |
+| `width`  | `number` | `1203`  | The width of the Safari window        |
+| `height` | `number` | `753`   | The height of the Safari window       |

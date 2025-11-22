@@ -54,5 +54,15 @@ export const docsConfig: DocsConfig = {
         },
       ],
     },
+    {
+      title: "Text Animations",
+      items: [
+        {
+          title: "Gradual Spacing Text",
+          href: "/docs/components/gradual-spacing-text",
+          items: [],
+        },
+      ],
+    },
   ],
 }
