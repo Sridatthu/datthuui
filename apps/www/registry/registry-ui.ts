@@ -13,4 +13,16 @@ export const ui: Registry["items"] = [
       },
     ],
   },
+  {
+    name: "ipad",
+    type: "registry:ui",
+    title: "ipad",
+    description: "An iPad SVG component.",
+    files: [
+      {
+        path: "datthuui/ipad.tsx",
+        type: "registry:ui",
+      },
+    ],
+  },
 ]

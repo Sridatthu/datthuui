@@ -14,4 +14,17 @@ export const examples: Registry["items"] = [
       },
     ],
   },
+  {
+    name: "ipad-demo",
+    type: "registry:example",
+    title: "ipad-demo",
+    description: "Example showing a ipad-demo component.",
+    registryDependencies: ["@datthuui/ipad"],
+    files: [
+      {
+        path: "example/ipad-demo.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
 ]

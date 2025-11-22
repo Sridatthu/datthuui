@@ -46,6 +46,12 @@ export const docsConfig: DocsConfig = {
           href: "/docs/components/safari-browser",
           items: [],
         },
+        {
+          title: "iPad",
+          href: "/docs/components/ipad",
+          items: [],
+          label: "New",
+        },
       ],
     },
   ],

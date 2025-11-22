@@ -6,11 +6,13 @@ This file provides LLM-friendly entry points to documentation and examples.
 
 ## Components
 
+- [ipad](https://datthuui.vercel.app/docs/components/ipad): An iPad SVG component.
 - [safari-browser](https://datthuui.vercel.app/docs/components/safari-browser): A safari browser component.
 
 ## Examples
 
 - [safari-browser-demo](https://github.com/Sridatthu/datthuui/blob/main/example/safari-browser-demo.tsx): Example usage
+- [ipad-demo](https://github.com/Sridatthu/datthuui/blob/main/example/ipad-demo.tsx): Example usage
 
 ## Optional
 
