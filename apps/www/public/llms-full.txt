@@ -73,6 +73,72 @@ export function FadeUpWordDemo() {
 
 
 
+===== COMPONENT: gradient-slide-button =====
+Title: gradient-slide-button
+Description: A gradient-slide-button component.
+
+--- file: datthuui/gradient-slide-button.tsx ---
+"use client"
+
+import * as React from "react"
+
+import { cn } from "@/lib/utils"
+
+interface GradientSlideButtonProps
+  extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+  children: React.ReactNode
+  className?: string
+  colorFrom?: string
+  colorTo?: string
+}
+
+export function GradientSlideButton({
+  children,
+  className,
+  colorFrom = "#F54900",
+  colorTo = "#FF8904",
+  ...props
+}: GradientSlideButtonProps) {
+  return (
+    <button
+      style={
+        {
+          "--color-from": colorFrom,
+          "--color-to": colorTo,
+        } as React.CSSProperties
+      }
+      className={cn(
+        "relative inline-flex h-10 items-center justify-center gap-2 overflow-hidden rounded-md bg-neutral-50 px-4 py-2 text-sm font-medium whitespace-nowrap text-black transition-all duration-300 hover:scale-[105%] dark:bg-neutral-800 dark:text-white",
+        "before:absolute before:top-0 before:left-[-100%] before:h-full before:w-full before:rounded-[inherit] before:bg-gradient-to-l before:from-[var(--color-from)] before:to-[var(--color-to)] before:transition-all before:duration-200",
+        "hover:text-white hover:before:left-0",
+        className
+      )}
+      {...props}
+    >
+      <span className="relative z-10">{children}</span>
+    </button>
+  )
+}
+
+
+===== EXAMPLE: gradient-slide-button-demo =====
+Title: gradient-slide-button-demo
+
+--- file: example/gradient-slide-button-demo.tsx ---
+import { GradientSlideButton } from "@/registry/datthuui/gradient-slide-button"
+
+export function GradientSlideButtonDemo() {
+  return (
+    <div>
+      <GradientSlideButton className="rounded-3xl">
+        Hover me
+      </GradientSlideButton>
+    </div>
+  )
+}
+
+
+
 ===== COMPONENT: gradual-spacing-text =====
 Title: gradual-spacing-text
 Description: A gradual spacing text component.

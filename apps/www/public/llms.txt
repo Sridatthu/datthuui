@@ -7,6 +7,7 @@ This file provides LLM-friendly entry points to documentation and examples.
 ## Components
 
 - [fade-up-word](https://ui.datthu.site/docs/components/fade-up-word): A fade-up-word component.
+- [gradient-slide-button](https://ui.datthu.site/docs/components/gradient-slide-button): A gradient-slide-button component.
 - [gradual-spacing-text](https://ui.datthu.site/docs/components/gradual-spacing-text): A gradual spacing text component.
 - [ipad](https://ui.datthu.site/docs/components/ipad): An iPad SVG component.
 - [macbook-pro](https://ui.datthu.site/docs/components/macbook-pro): A MacBook Pro SVG component.
@@ -19,6 +20,7 @@ This file provides LLM-friendly entry points to documentation and examples.
 - [gradual-spacing-text-demo](https://github.com/Sridatthu/datthuui/blob/main/example/gradual-spacing-text-demo.tsx): Example usage
 - [macbook-pro-demo](https://github.com/Sridatthu/datthuui/blob/main/example/macbook-pro-demo.tsx): Example usage
 - [fade-up-word-demo](https://github.com/Sridatthu/datthuui/blob/main/example/fade-up-word-demo.tsx): Example usage
+- [gradient-slide-button-demo](https://github.com/Sridatthu/datthuui/blob/main/example/gradient-slide-button-demo.tsx): Example usage
 
 ## Optional
 

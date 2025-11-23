@@ -1,0 +1,51 @@
+---
+title: Gradient Slide Button
+date: 2025-11-23
+description: A dynamic and stylish button that reveals a vibrant gradient as you hover over it.
+author: Sri Datthu
+published: true
+---
+
+<ComponentPreview name="gradient-slide-button-demo" />
+
+## Installation
+
+<Tabs defaultValue="cli">
+  <TabsList>
+    <TabsTrigger value="cli">CLI</TabsTrigger>
+    <TabsTrigger value="manual">Manual</TabsTrigger>
+  </TabsList>
+  <TabsContent value="cli">
+    ```bash 
+    npx shadcn@latest add "https://ui.datthu.site/r/gradient-slide-button.json"
+    ```
+  </TabsContent>
+  <TabsContent value="manual">
+    <Steps>
+      <Step>Copy and paste the following code into your project.</Step>
+
+      `components/datthuui/gradient-slide-button.tsx`
+
+      <ComponentSource name="gradient-slide-button" />
+      <Step>Update the import paths to match your project setup.</Step>
+    </Steps>
+
+  </TabsContent>
+</Tabs>
+
+## Usage
+
+```tsx showLineNumbers
+import { GradientSlideButton } from "@/components/datthuui/gradient-slide-button"
+```
+
+```tsx showLineNumbers
+<GradientSlideButton className="rounded-3xl">Hover me</GradientSlideButton>
+```
+
+## Props
+
+| Prop        | Type     | Default | Description                                    |
+| ----------- | -------- | ------- | ---------------------------------------------- |
+| `text`      | `string` | `""`    | The text content to display                    |
+| `className` | `string` | `""`    | Additional CSS classes to apply to the element |

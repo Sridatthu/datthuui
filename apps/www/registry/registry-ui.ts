@@ -62,4 +62,16 @@ export const ui: Registry["items"] = [
       },
     ],
   },
+  {
+    name: "gradient-slide-button",
+    type: "registry:ui",
+    title: "gradient-slide-button",
+    description: "A gradient-slide-button component.",
+    files: [
+      {
+        path: "datthuui/gradient-slide-button.tsx",
+        type: "registry:ui",
+      },
+    ],
+  },
 ]

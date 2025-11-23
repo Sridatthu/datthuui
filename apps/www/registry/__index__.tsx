@@ -100,6 +100,23 @@ export const Index: Record<string, any> = {
     }),
     meta: undefined,
   },
+  "gradient-slide-button": {
+    name: "gradient-slide-button",
+    description: "A gradient-slide-button component.",
+    type: "registry:ui",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/datthuui/gradient-slide-button.tsx",
+      type: "registry:ui",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/datthuui/gradient-slide-button.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    meta: undefined,
+  },
   "safari-browser-demo": {
     name: "safari-browser-demo",
     description: "Example showing a safari-browser-demo component.",
@@ -180,6 +197,23 @@ export const Index: Record<string, any> = {
     }],
     component: React.lazy(async () => {
       const mod = await import("@/registry/example/fade-up-word-demo.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    meta: undefined,
+  },
+  "gradient-slide-button-demo": {
+    name: "gradient-slide-button-demo",
+    description: "Example showing a gradient-slide-button-demo component.",
+    type: "registry:example",
+    registryDependencies: ["@datthuui/gradient-slide-button"],
+    files: [{
+      path: "registry/example/gradient-slide-button-demo.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/example/gradient-slide-button-demo.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),

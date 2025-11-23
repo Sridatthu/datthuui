@@ -66,4 +66,17 @@ export const examples: Registry["items"] = [
       },
     ],
   },
+  {
+    name: "gradient-slide-button-demo",
+    type: "registry:example",
+    title: "gradient-slide-button-demo",
+    description: "Example showing a gradient-slide-button-demo component.",
+    registryDependencies: ["@datthuui/gradient-slide-button"],
+    files: [
+      {
+        path: "example/gradient-slide-button-demo.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
 ]

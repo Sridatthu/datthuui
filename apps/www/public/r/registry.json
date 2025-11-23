@@ -84,6 +84,18 @@
       ]
     },
     {
+      "name": "gradient-slide-button",
+      "type": "registry:ui",
+      "title": "gradient-slide-button",
+      "description": "A gradient-slide-button component.",
+      "files": [
+        {
+          "path": "registry/datthuui/gradient-slide-button.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
       "name": "safari-browser-demo",
       "type": "registry:example",
       "title": "safari-browser-demo",
@@ -154,6 +166,21 @@
       "files": [
         {
           "path": "registry/example/fade-up-word-demo.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "gradient-slide-button-demo",
+      "type": "registry:example",
+      "title": "gradient-slide-button-demo",
+      "description": "Example showing a gradient-slide-button-demo component.",
+      "registryDependencies": [
+        "@datthuui/gradient-slide-button"
+      ],
+      "files": [
+        {
+          "path": "registry/example/gradient-slide-button-demo.tsx",
           "type": "registry:example"
         }
       ]
