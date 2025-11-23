@@ -53,4 +53,17 @@ export const examples: Registry["items"] = [
       },
     ],
   },
+  {
+    name: "fade-up-word-demo",
+    type: "registry:example",
+    title: "fade-up-word-demo",
+    description: "Example showing a fade-up-word-demo component.",
+    registryDependencies: ["@datthuui/fade-up-word"],
+    files: [
+      {
+        path: "example/fade-up-word-demo.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
 ]

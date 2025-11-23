@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "fade-up-word-demo",
+  "type": "registry:example",
+  "title": "fade-up-word-demo",
+  "description": "Example showing a fade-up-word-demo component.",
+  "registryDependencies": [
+    "@datthuui/fade-up-word"
+  ],
+  "files": [
+    {
+      "path": "registry/example/fade-up-word-demo.tsx",
+      "content": "import { FadeUpWord } from \"@/registry/datthuui/fade-up-word\"\n\nexport function FadeUpWordDemo() {\n  return (\n    <div className=\"flex items-center justify-center\">\n      <FadeUpWord as=\"h1\">Welcome to DatthuUI</FadeUpWord>\n    </div>\n  )\n}\n",
+      "type": "registry:example"
+    }
+  ]
+}

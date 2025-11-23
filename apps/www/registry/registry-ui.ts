@@ -50,4 +50,16 @@ export const ui: Registry["items"] = [
       },
     ],
   },
+  {
+    name: "fade-up-word",
+    type: "registry:ui",
+    title: "fade-up-word",
+    description: "A fade-up-word component.",
+    files: [
+      {
+        path: "datthuui/fade-up-word.tsx",
+        type: "registry:ui",
+      },
+    ],
+  },
 ]

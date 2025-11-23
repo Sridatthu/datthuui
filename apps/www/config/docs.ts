@@ -68,6 +68,11 @@ export const docsConfig: DocsConfig = {
           href: "/docs/components/gradual-spacing-text",
           items: [],
         },
+        {
+          title: "Fade Up Word",
+          href: "/docs/components/fade-up-word",
+          items: [],
+        },
       ],
     },
   ],
