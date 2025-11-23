@@ -1,6 +1,6 @@
 # Contributing to Datthuui
 
-Thank you for your interest in contributing to eldoraui! We appreciate your support and look forward to your contributions. This guide will help you understand the directory structure and provide detailed instructions on how to add a new component to eldoraui.
+Thank you for your interest in contributing to Datthuui! We appreciate your support and look forward to your contributions. This guide will help you understand the directory structure and provide detailed instructions on how to add a new component to eldoraui.
 
 Once done, open a pull request from your forked repo to the main repo [here](https://github.com/Sridatthu/datthuui/compare).
 
