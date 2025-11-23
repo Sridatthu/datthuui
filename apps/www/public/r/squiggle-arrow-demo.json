@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "squiggle-arrow-demo",
+  "type": "registry:example",
+  "title": "squiggle-arrow-demo",
+  "description": "Example showing a squiggle-arrow-demo component.",
+  "registryDependencies": [
+    "@datthuui/squiggle-arrow"
+  ],
+  "files": [
+    {
+      "path": "registry/example/squiggle-arrow-demo.tsx",
+      "content": "import { SquigglyArrow } from \"@/registry/datthuui/squiggle-arrow\"\r\n\r\nexport function SquigglyArrowDemo() {\r\n  return (\r\n    <main className=\"flex min-h-screen flex-col items-center justify-center gap-12 \">\r\n      <div className=\"flex flex-col gap-12 items-center\">\r\n        <div className=\"flex flex-col gap-6\">\r\n          <h2 className=\"text-2xl font-semibold text-center\">Variants</h2>\r\n          <div className=\"flex flex-col gap-4\">\r\n            <div className=\"flex items-center gap-4\">\r\n              <span className=\"w-24 text-foreground\">Wavy</span>\r\n              <SquigglyArrow variant=\"wavy\" />\r\n            </div>\r\n            <div className=\"flex items-center gap-4\">\r\n              <span className=\"w-24 text-foreground\">Bouncy</span>\r\n              <SquigglyArrow variant=\"bouncy\" className=\"text-blue-500\" />\r\n            </div>\r\n            <div className=\"flex items-center gap-4\">\r\n              <span className=\"w-24 text-foreground\">Smooth</span>\r\n              <SquigglyArrow variant=\"smooth\" className=\"text-purple-600\" />\r\n            </div>\r\n          </div>\r\n        </div>\r\n\r\n        <div className=\"flex flex-col gap-6\">\r\n          <h2 className=\"text-2xl font-semibold text-center\">Directions</h2>\r\n          <div className=\"flex flex-wrap gap-8 justify-center p-4\">\r\n            <div className=\"flex flex-col items-center gap-2\">\r\n              <span className=\"text-foreground\">Right</span>\r\n              <SquigglyArrow direction=\"right\" className=\"text-green-600\" />\r\n            </div>\r\n            <div className=\"flex flex-col items-center gap-2\">\r\n              <span className=\"text-foreground\">Left</span>\r\n              <SquigglyArrow direction=\"left\" className=\"text-orange-600\" />\r\n            </div>\r\n            <div className=\"flex flex-col items-center gap-2\">\r\n              <span className=\"text-foreground\">Down</span>\r\n              <SquigglyArrow direction=\"down\" className=\"text-pink-600\" />\r\n            </div>\r\n            <div className=\"flex flex-col items-center gap-2\">\r\n              <span className=\"text-foreground\">Up</span>\r\n              <SquigglyArrow direction=\"up\" className=\"text-cyan-600\" />\r\n            </div>\r\n          </div>\r\n        </div>\r\n\r\n        <div className=\"flex flex-col gap-6\">\r\n          <h2 className=\"text-2xl font-semibold text-center\">Sizes</h2>\r\n          <div className=\"flex items-center gap-8 overflow-x-auto p-4\">\r\n            <SquigglyArrow width={150} height={75} strokeWidth={2} />\r\n            <SquigglyArrow\r\n              width={250}\r\n              height={125}\r\n              strokeWidth={3}\r\n              className=\"text-blue-500\"\r\n            />\r\n            <SquigglyArrow\r\n              width={300}\r\n              height={150}\r\n              strokeWidth={4}\r\n              className=\"text-purple-600\"\r\n            />\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </main>\r\n  )\r\n}\r\n\r\n\r\n",
+      "type": "registry:example"
+    }
+  ]
+}

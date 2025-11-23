@@ -1,0 +1,55 @@
+---
+title: Squiggle Arrow
+date: 2025-11-23
+description: A playful, hand-drawn squiggly arrow component with customizable variants, directions, and sizes
+author: Sri Datthu
+published: true
+---
+
+<ComponentPreview name="squiggle-arrow-demo" />
+
+## Installation
+
+<Tabs defaultValue="cli">
+  <TabsList>
+    <TabsTrigger value="cli">CLI</TabsTrigger>
+    <TabsTrigger value="manual">Manual</TabsTrigger>
+  </TabsList>
+  <TabsContent value="cli">
+    ```bash 
+    npx shadcn@latest add "https://ui.datthu.site/r/squiggle-arrow.json"
+    ```
+  </TabsContent>
+  <TabsContent value="manual">
+    <Steps>
+      <Step>Copy and paste the following code into your project.</Step>
+
+      `components/datthuui/squiggle-arrow.tsx`
+
+      <ComponentSource name="squiggle-arrow" />
+      <Step>Update the import paths to match your project setup.</Step>
+    </Steps>
+
+  </TabsContent>
+</Tabs>
+
+## Usage
+
+```tsx showLineNumbers
+import { SquiggleArrow } from "@/components/datthuui/squiggle-arrow"
+```
+
+```tsx showLineNumbers
+<SquiggleArrow />
+```
+
+## Props
+
+| Prop           | Type                                  | Default   | Description                          |
+| -------------- | ------------------------------------- | --------- | ------------------------------------ |
+| `width?`       | `number`                              | `200`     | Width of the SVG arrow               |
+| `height?`      | `number`                              | `100`     | Height of the SVG arrow              |
+| `strokeWidth?` | `number`                              | `2.5`     | Thickness of the arrow stroke        |
+| `className?`   | `string`                              | `-`       | Additional CSS classes               |
+| `direction?`   | `"right" \| "left" \| "up" \| "down"` | `"right"` | Direction the arrow points           |
+| `variant?`     | `"wavy" \| "bouncy" \| "smooth"`      | `"wavy"`  | Visual style of the squiggle pattern |

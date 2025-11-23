@@ -10,7 +10,7 @@
   "files": [
     {
       "path": "registry/example/gradient-slide-button-demo.tsx",
-      "content": "import { GradientSlideButton } from \"@/registry/datthuui/gradient-slide-button\"\r\n\r\nexport function GradientSlideButtonDemo() {\r\n  return (\r\n    <div>\r\n      <GradientSlideButton className=\"rounded-3xl\">\r\n        Hover me\r\n      </GradientSlideButton>\r\n    </div>\r\n  )\r\n}\r\n",
+      "content": "import { GradientSlideButton } from \"@/registry/datthuui/gradient-slide-button\"\n\nexport function GradientSlideButtonDemo() {\n  return (\n    <div>\n      <GradientSlideButton className=\"rounded-3xl\">\n        Hover me\n      </GradientSlideButton>\n    </div>\n  )\n}\n",
       "type": "registry:example"
     }
   ]

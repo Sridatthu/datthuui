@@ -96,6 +96,18 @@
       ]
     },
     {
+      "name": "squiggle-arrow",
+      "type": "registry:ui",
+      "title": "squiggle-arrow",
+      "description": "A squiggle arrow component.",
+      "files": [
+        {
+          "path": "registry/datthuui/squiggle-arrow.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
       "name": "safari-browser-demo",
       "type": "registry:example",
       "title": "safari-browser-demo",
@@ -181,6 +193,21 @@
       "files": [
         {
           "path": "registry/example/gradient-slide-button-demo.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "squiggle-arrow-demo",
+      "type": "registry:example",
+      "title": "squiggle-arrow-demo",
+      "description": "Example showing a squiggle-arrow-demo component.",
+      "registryDependencies": [
+        "@datthuui/squiggle-arrow"
+      ],
+      "files": [
+        {
+          "path": "registry/example/squiggle-arrow-demo.tsx",
           "type": "registry:example"
         }
       ]

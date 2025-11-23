@@ -85,5 +85,15 @@ export const docsConfig: DocsConfig = {
         },
       ],
     },
+    {
+      title: "SVGS",
+      items: [
+        {
+          title: "Squiggle Arrow",
+          href: "/docs/components/squiggle-arrow",
+          items: [],
+        },
+      ],
+    },
   ],
 }

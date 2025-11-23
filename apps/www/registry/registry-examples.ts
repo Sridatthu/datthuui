@@ -79,4 +79,17 @@ export const examples: Registry["items"] = [
       },
     ],
   },
+  {
+    name: "squiggle-arrow-demo",
+    type: "registry:example",
+    title: "squiggle-arrow-demo",
+    description: "Example showing a squiggle-arrow-demo component.",
+    registryDependencies: ["@datthuui/squiggle-arrow"],
+    files: [
+      {
+        path: "example/squiggle-arrow-demo.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
 ]

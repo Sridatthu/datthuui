@@ -74,4 +74,16 @@ export const ui: Registry["items"] = [
       },
     ],
   },
+  {
+    name: "squiggle-arrow",
+    type: "registry:ui",
+    title: "squiggle-arrow",
+    description: "A squiggle arrow component.",
+    files: [
+      {
+        path: "datthuui/squiggle-arrow.tsx",
+        type: "registry:ui",
+      },
+    ],
+  },
 ]

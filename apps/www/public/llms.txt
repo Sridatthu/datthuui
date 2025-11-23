@@ -12,6 +12,7 @@ This file provides LLM-friendly entry points to documentation and examples.
 - [ipad](https://ui.datthu.site/docs/components/ipad): An iPad SVG component.
 - [macbook-pro](https://ui.datthu.site/docs/components/macbook-pro): A MacBook Pro SVG component.
 - [safari-browser](https://ui.datthu.site/docs/components/safari-browser): A safari browser component.
+- [squiggle-arrow](https://ui.datthu.site/docs/components/squiggle-arrow): A squiggle arrow component.
 
 ## Examples
 
@@ -21,6 +22,7 @@ This file provides LLM-friendly entry points to documentation and examples.
 - [macbook-pro-demo](https://github.com/Sridatthu/datthuui/blob/main/example/macbook-pro-demo.tsx): Example usage
 - [fade-up-word-demo](https://github.com/Sridatthu/datthuui/blob/main/example/fade-up-word-demo.tsx): Example usage
 - [gradient-slide-button-demo](https://github.com/Sridatthu/datthuui/blob/main/example/gradient-slide-button-demo.tsx): Example usage
+- [squiggle-arrow-demo](https://github.com/Sridatthu/datthuui/blob/main/example/squiggle-arrow-demo.tsx): Example usage
 
 ## Optional
 
